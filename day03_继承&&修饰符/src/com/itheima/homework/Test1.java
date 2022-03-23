@@ -8,11 +8,12 @@ public class Test1 {
         stu.setBirthday("1996-5-7");
         stu.setSchool("黑马");
         System.out.println(stu.getInfo());
+        System.out.println("2222222222");
     }
 }
 
 class Person {
-    private String name; // 姓名
+    private String name;
     private int age; // 年龄
     private String birthday; // 生日
 
